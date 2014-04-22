@@ -1,0 +1,746 @@
+2013-10-02 22:40:12,750 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-10-02 22:40:12,756 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2013-10-02 22:40:12,760 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:40:12,846 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 85ms)
+2013-10-02 22:40:12,857 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:40:12,859 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-10-02 22:40:12,860 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:40:12,861 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-10-02 22:40:12,862 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:40:12,863 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2013-10-02 22:40:12,866 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:40:12,869 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-02 22:40:12,869 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:40:12,871 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,876 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:12,927 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,061 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,063 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,064 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,163 [10] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:13,163 [10] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco is not configured
+2013-10-02 22:40:48,830 [10] INFO  Umbraco.Core.DatabaseContext - [Thread 5] Configured a new ConnectionString using the '' provider.
+2013-10-02 22:40:49,083 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 16] Application shutdown. Reason: ConfigurationChange
+2013-10-02 22:40:49,189 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Determining hash of code files on disk
+2013-10-02 22:40:49,195 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Hash determined (took 3ms)
+2013-10-02 22:40:49,198 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:40:49,277 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 77ms)
+2013-10-02 22:40:49,287 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:40:49,289 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-10-02 22:40:49,290 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:40:49,291 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-10-02 22:40:49,291 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:40:49,293 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2013-10-02 22:40:49,294 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:40:49,296 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-02 22:40:49,296 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:40:49,298 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,303 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,305 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,341 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,342 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,343 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 24] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,895 [25] INFO  Umbraco.Core.ApplicationContext - [Thread 13] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:49,895 [25] INFO  Umbraco.Web.UI.Install.InstallerRestService - [Thread 13] Running 'InstallOrUpgrade' service
+2013-10-02 22:40:50,150 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 16] Application shutdown. Reason: ConfigurationChange
+2013-10-02 22:40:50,201 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Determining hash of code files on disk
+2013-10-02 22:40:50,207 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Hash determined (took 3ms)
+2013-10-02 22:40:50,210 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:40:50,219 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 7ms)
+2013-10-02 22:40:50,231 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:40:50,231 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2013-10-02 22:40:50,232 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:40:50,232 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+2013-10-02 22:40:50,232 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:40:50,232 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 0ms)
+2013-10-02 22:40:50,233 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:40:50,233 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2013-10-02 22:40:50,233 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:40:50,234 [11] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2013-10-02 22:40:50,238 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,238 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,239 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,240 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,241 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,277 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,278 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:40:50,279 [11] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:11,881 [11] INFO  Umbraco.Core.DatabaseContext - [Thread 13] Configured a new ConnectionString using the 'System.Data.SqlClient' provider.
+2013-10-02 22:41:12,133 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 16] Application shutdown. Reason: ConfigurationChange
+2013-10-02 22:41:12,187 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Determining hash of code files on disk
+2013-10-02 22:41:12,193 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Hash determined (took 3ms)
+2013-10-02 22:41:12,194 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:41:12,201 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 6ms)
+2013-10-02 22:41:12,211 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:41:12,211 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2013-10-02 22:41:12,211 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:41:12,211 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+2013-10-02 22:41:12,211 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:41:12,212 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 0ms)
+2013-10-02 22:41:12,212 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:41:12,212 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2013-10-02 22:41:12,213 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:41:12,213 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,228 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,229 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,251 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,252 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,252 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 26] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,405 [28] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:12,405 [28] INFO  Umbraco.Web.UI.Install.InstallerRestService - [Thread 18] Running 'InstallOrUpgrade' service
+2013-10-02 22:41:12,406 [28] INFO  Umbraco.Core.DatabaseContext - [Thread 18] Database configuration status: Started
+2013-10-02 22:41:12,969 [28] INFO  Umbraco.Core.DatabaseContext - [Thread 18] Database configuration failed with the following error and stack trace: Login failed for user 'acaban'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.SqlSyntax.SqlServerSyntaxProvider.GetTablesInSchema(Database db)
+   at Umbraco.Core.Persistence.Migrations.Initial.DatabaseSchemaCreation.ValidateSchema()
+   at Umbraco.Core.DatabaseContext.ValidateDatabaseSchema()
+   at Umbraco.Core.DatabaseContext.CreateDatabaseSchemaAndDataOrUpgrade()
+2013-10-02 22:41:36,434 [28] INFO  Umbraco.Core.DatabaseContext - [Thread 19] Configured a new ConnectionString using the 'System.Data.SqlClient' provider.
+2013-10-02 22:41:36,685 [28] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 18] Application shutdown. Reason: ConfigurationChange
+2013-10-02 22:41:36,731 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Determining hash of code files on disk
+2013-10-02 22:41:36,737 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Hash determined (took 3ms)
+2013-10-02 22:41:36,737 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:41:36,742 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 4ms)
+2013-10-02 22:41:36,754 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:41:36,754 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2013-10-02 22:41:36,754 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:41:36,754 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+2013-10-02 22:41:36,754 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:41:36,755 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 0ms)
+2013-10-02 22:41:36,755 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:41:36,755 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2013-10-02 22:41:36,755 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:41:36,755 [30] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,771 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:36,794 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 17] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:37,055 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:37,055 [30] INFO  Umbraco.Web.UI.Install.InstallerRestService - [Thread 18] Running 'InstallOrUpgrade' service
+2013-10-02 22:41:37,058 [30] INFO  Umbraco.Core.DatabaseContext - [Thread 18] Database configuration status: Started
+2013-10-02 22:41:37,893 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Initializing database migrations
+2013-10-02 22:41:37,896 [30] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of Umbraco.Core.Persistence.Migrations.IMigration
+2013-10-02 22:41:37,956 [30] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Persistence.Migrations.IMigration, found 14 (took 60ms)
+2013-10-02 22:41:37,962 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'RenameCmsTabTable' to context
+2013-10-02 22:41:37,964 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'UpdateCmsPropertyTypeGroupTable' to context
+2013-10-02 22:41:37,964 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'UpdateCmsContentTypeTable' to context
+2013-10-02 22:41:37,964 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'UpdateCmsContentTypeAllowedContentTypeTable' to context
+2013-10-02 22:41:37,965 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'NewCmsContentType2ContentTypeTable' to context
+2013-10-02 22:41:38,021 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'MoveMasterContentTypeData' to context
+2013-10-02 22:41:38,022 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'RemoveMasterContentTypeColumn' to context
+2013-10-02 22:41:38,024 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'RenameTabIdColumn' to context
+2013-10-02 22:41:38,024 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'UpdateCmsContentVersionTable' to context
+2013-10-02 22:41:38,024 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:38,024 [30] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '6.1.6',''
+2013-10-02 22:41:38,024 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'EnsureAppsTreesUpdated' to context
+2013-10-02 22:41:38,024 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'DeleteAppTables' to context
+2013-10-02 22:41:38,025 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'UpdatePropertyTypesAndGroups' to context
+2013-10-02 22:41:38,229 [30] INFO  Umbraco.Core.Persistence.Database - [Thread 18] Create Table sql -1:
+ CREATE TABLE [umbracoServer] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[address] NVARCHAR(500) NOT NULL,
+[computerName] NVARCHAR(255) NOT NULL,
+[registeredDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoServer_registeredDate] DEFAULT (getdate()),
+[lastNotifiedDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoServer_lastNotifiedDate] DEFAULT (getdate()),
+[isActive] BIT NOT NULL)
+2013-10-02 22:41:38,283 [30] INFO  Umbraco.Core.Persistence.Database - [Thread 18] Primary Key sql -1:
+ ALTER TABLE [umbracoServer] ADD CONSTRAINT [PK_umbracoServer] PRIMARY KEY CLUSTERED ([id])
+2013-10-02 22:41:38,353 [30] INFO  Umbraco.Core.Persistence.Database - [Thread 18] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_computerName] ON [umbracoServer] ([computerName])
+2013-10-02 22:41:38,405 [30] INFO  Umbraco.Core.Persistence.Database - [Thread 18] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoServer_isActive] ON [umbracoServer] ([isActive])
+2013-10-02 22:41:38,465 [30] INFO  Umbraco.Core.Persistence.Database - [Thread 18] New table 'umbracoServer' was created
+2013-10-02 22:41:38,465 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Added UPGRADE migration 'CreateServerRegistryTable' to context
+2013-10-02 22:41:38,516 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 1: sp_rename 'cmsTab', 'cmsPropertyTypeGroup'
+2013-10-02 22:41:38,687 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 2: ALTER TABLE [cmsPropertyTypeGroup] ADD [parentGroupId] INTEGER NULL
+2013-10-02 22:41:38,740 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 3: ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [FK_cmsPropertyTypeGroup_cmsPropertyTypeGroup] FOREIGN KEY ([parentGroupId]) REFERENCES [cmsPropertyTypeGroup] ([id])
+2013-10-02 22:41:38,806 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 4: ALTER TABLE [cmsContentType] ADD [isContainer] BIT NOT NULL CONSTRAINT [DF_cmsContentType_isContainer] DEFAULT ('0')
+2013-10-02 22:41:38,861 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 5: ALTER TABLE [cmsContentType] ADD [allowAtRoot] BIT NOT NULL CONSTRAINT [DF_cmsContentType_allowAtRoot] DEFAULT ('0')
+2013-10-02 22:41:38,915 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 6: ALTER TABLE [cmsContentTypeAllowedContentType] ADD [sortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsContentTypeAllowedContentType_sortOrder] DEFAULT ('1')
+2013-10-02 22:41:38,971 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 7: CREATE TABLE [cmsContentType2ContentType] ([parentContentTypeId] INTEGER NOT NULL,
+[childContentTypeId] INTEGER NOT NULL)
+2013-10-02 22:41:39,024 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 8: ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [PK_cmsContentType2ContentType] PRIMARY KEY CLUSTERED ([parentContentTypeId], [childContentTypeId])
+2013-10-02 22:41:39,077 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 9: INSERT INTO cmsContentType2ContentType (parentContentTypeId, childContentTypeId) SELECT masterContentType, nodeId FROM cmsContentType WHERE not masterContentType is null and masterContentType != 0
+2013-10-02 22:41:39,129 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 10: ALTER TABLE [cmsContentType] DROP CONSTRAINT [DF_cmsContentType_masterContentType]
+2013-10-02 22:41:39,183 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 11: ALTER TABLE [cmsContentType] DROP COLUMN [masterContentType]
+2013-10-02 22:41:39,288 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 15: sp_rename 'cmsPropertyType.tabId', 'propertyTypeGroupId', 'COLUMN'
+2013-10-02 22:41:39,341 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 19: ALTER TABLE [cmsContentVersion] ADD [LanguageLocale] NVARCHAR(10) NULL
+2013-10-02 22:41:39,394 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 20: DROP TABLE [umbracoAppTree]
+2013-10-02 22:41:39,449 [30] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 18] Executing sql statement 21: DROP TABLE [umbracoApp]
+2013-10-02 22:41:40,459 [30] INFO  Umbraco.Core.DatabaseContext - [Thread 18] Database configuration status: <p>Upgrade completed!</p>
+2013-10-02 22:41:45,270 [30] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - [Thread 19] Updated version number from 1 to 2
+2013-10-02 22:41:45,522 [30] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 18] Application shutdown. Reason: ConfigurationChange
+2013-10-02 22:41:45,675 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-10-02 22:41:45,681 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2013-10-02 22:41:45,681 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:41:45,686 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 4ms)
+2013-10-02 22:41:45,698 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:41:45,699 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2013-10-02 22:41:45,700 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:41:45,700 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+2013-10-02 22:41:45,700 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:41:45,700 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 0ms)
+2013-10-02 22:41:45,701 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:41:45,701 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2013-10-02 22:41:45,701 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:41:45,701 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2013-10-02 22:41:45,752 [31] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-10-02 22:41:46,181 [31] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-10-02 22:41:46,183 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 22:41:46,246 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 62ms)
+2013-10-02 22:41:46,306 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 22:41:46,318 [31] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2013-10-02 22:41:46,455 [31] INFO  Umbraco.Web.UI.Install.InstallerRestService - [Thread 14] Hitting Page_Load on InstallerRestService.aspx for the requested 'sitebuildervids' feed
+2013-10-02 22:41:46,455 [31] INFO  Umbraco.Web.UI.Install.InstallerRestService - [Thread 18] Hitting Page_Load on InstallerRestService.aspx for the requested 'developervids' feed
+2013-10-02 22:41:57,073 [31] INFO  umbraco.BusinessLogic.Log - [Thread 14] Log scrubbed.  Removed all items older than 2013-08-03 22:41:56
+2013-10-02 22:41:57,074 [31] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 14] Application shutdown. Reason: ConfigurationChange
+2013-10-02 22:41:57,789 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Determining hash of code files on disk
+2013-10-02 22:41:57,795 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Hash determined (took 3ms)
+2013-10-02 22:41:57,795 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 22:41:57,871 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 19 (took 76ms)
+2013-10-02 22:41:57,872 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 22:41:57,874 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-10-02 22:41:57,875 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 22:41:57,876 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-10-02 22:41:57,876 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 22:41:57,878 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2013-10-02 22:41:57,879 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 22:41:57,881 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-02 22:41:57,881 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 22:41:57,883 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-02 22:41:57,926 [35] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 33] Initializing Examine and binding to business logic events
+2013-10-02 22:41:58,389 [35] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 33] Adding examine event handlers for index providers: 3
+2013-10-02 22:41:58,391 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 22:41:58,395 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-02 22:41:58,453 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 22:41:58,464 [35] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 10ms)
+2013-10-02 22:41:59,436 [35] INFO  umbraco.BasePages.BasePage - [Thread 13] User Angel Caban (Id: 0) logged in
+2013-10-02 22:41:59,689 [35] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-02 22:41:59,691 [35] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-10-02 22:41:59,833 [35] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 22:41:59,844 [35] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 10ms)
+2013-10-02 22:42:00,609 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-02 22:42:00,613 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2013-10-02 22:42:17,798 [35] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-02 22:42:17,807 [35] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 9ms)
+2013-10-02 22:42:19,734 [35] INFO  umbraco.content - [Thread 19] Loading content from disk cache...
+2013-10-02 22:42:21,247 [35] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.XsltExtensionAttribute
+2013-10-02 22:42:21,251 [35] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.XsltExtensionAttribute, found 0 (took 4ms)
+2013-10-02 22:42:21,300 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 5] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template name="compiler:generated">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template name="showpost">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:42:30,750 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2013-10-02 22:42:30,755 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 4ms)
+2013-10-02 22:43:03,455 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 7] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template name="compiler:generated">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template name="showpost">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:43:09,705 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 7] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:10,753 [35] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 7] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2013-10-02 22:43:12,163 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 21] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template name="compiler:generated">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template name="showpost">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:43:18,321 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 5] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template name="compiler:generated">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template name="showpost">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:43:34,716 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 9] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template name="compiler:generated">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template name="showpost">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:43:44,777 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 13] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template name="compiler:generated">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template name="showpost">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current, XPathNavigator post)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:43:45,618 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Welcome' with Id '1058' has been unpublished.
+2013-10-02 22:43:46,555 [35] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-02 22:43:46,563 [35] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 7ms)
+2013-10-02 22:43:52,855 [35] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 10] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:tagsLib'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2013-10-02 22:44:02,744 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'About' with Id '1061' has been unpublished.
+2013-10-02 22:44:19,860 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Blog' with Id '1057' has been unpublished.
+2013-10-02 22:44:21,303 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Tag Cloud' with Id '1060' has been unpublished.
+2013-10-02 22:44:22,170 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Archive' with Id '1059' has been unpublished.
+2013-10-02 22:44:56,971 [35] INFO  umbraco.cms.businesslogic.web.Document - [Thread 34] New document 1080
+2013-10-02 22:54:00,872 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Blog' with Id '1080' has been published.
+2013-10-02 22:58:07,638 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content 'Blog' with Id '1080' has been published.
+2013-10-02 22:59:23,608 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Blog' with Id '1080' has been published.
+2013-10-02 22:59:30,226 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Blog' with Id '1080' has been published.
+2013-10-02 23:00:23,295 [35] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Blog' with Id '1080' has been published.
+2013-10-02 23:05:09,824 [35] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 23:05:09,829 [35] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2013-10-02 23:05:09,881 [35] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:05:09,892 [35] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 10ms)
+2013-10-02 23:05:09,953 [35] INFO  umbraco.content - [Thread 38] Loading content from database...
+2013-10-02 23:05:10,027 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:05:10,027 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 0ms)
+2013-10-02 23:05:10,029 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-02 23:05:10,029 [35] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 0ms)
+2013-10-02 23:06:05,227 [35] INFO  umbraco.BusinessLogic.Log - [Thread 16] Log scrubbed.  Removed all items older than 2013-08-03 23:06:05
+2013-10-02 23:06:05,229 [35] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 16] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-02 23:06:06,021 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-10-02 23:06:06,027 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2013-10-02 23:06:06,031 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 23:06:06,111 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 20 (took 79ms)
+2013-10-02 23:06:06,121 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 23:06:06,123 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-10-02 23:06:06,124 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 23:06:06,126 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-10-02 23:06:06,126 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 23:06:06,128 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2013-10-02 23:06:06,129 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 23:06:06,131 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-02 23:06:06,132 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 23:06:06,134 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-02 23:06:06,207 [37] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-10-02 23:06:07,423 [37] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-10-02 23:06:07,426 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 23:06:07,432 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2013-10-02 23:06:07,496 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:06:07,509 [37] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 12ms)
+2013-10-02 23:06:13,686 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-02 23:06:13,692 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 5ms)
+2013-10-02 23:07:16,381 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-02 23:07:16,384 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2013-10-02 23:07:51,047 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-02 23:07:51,067 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 19ms)
+2013-10-02 23:07:51,071 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:07:51,084 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 12ms)
+2013-10-02 23:07:52,052 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IPackageAction
+2013-10-02 23:07:52,058 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IPackageAction, found 14 (took 5ms)
+2013-10-02 23:07:52,061 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 23:07:52,065 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-02 23:07:52,116 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:07:52,128 [37] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 12ms)
+2013-10-02 23:07:52,190 [37] INFO  umbraco.content - [Thread 36] Loading content from database...
+2013-10-02 23:07:52,566 [37] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:07:52,566 [37] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 0ms)
+2013-10-02 23:07:52,569 [37] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-02 23:07:52,571 [37] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-10-02 23:07:52,571 [37] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-02 23:07:52,571 [37] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 0ms)
+2013-10-02 23:08:52,756 [37] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2013-08-03 23:08:52
+2013-10-02 23:08:52,757 [37] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 46] Application shutdown. Reason: ConfigurationChange
+2013-10-02 23:08:52,880 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-10-02 23:08:52,886 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2013-10-02 23:08:52,889 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 23:08:52,971 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 20 (took 81ms)
+2013-10-02 23:08:52,981 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 23:08:52,984 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-10-02 23:08:52,984 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 23:08:52,990 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-10-02 23:08:52,990 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 23:08:52,992 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2013-10-02 23:08:52,993 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 23:08:52,995 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-02 23:08:52,995 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 23:08:52,998 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-02 23:08:53,072 [22] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-10-02 23:08:53,506 [22] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-10-02 23:08:53,510 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 23:08:53,515 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2013-10-02 23:08:53,580 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:08:53,594 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 13ms)
+2013-10-02 23:08:54,601 [22] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:08:54,613 [22] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 12ms)
+2013-10-02 23:08:54,630 [22] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-02 23:08:54,633 [22] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-10-02 23:09:03,054 [22] INFO  umbraco.BusinessLogic.Log - [Thread 39] Log scrubbed.  Removed all items older than 2013-08-03 23:09:02
+2013-10-02 23:09:03,055 [22] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 39] Application shutdown. Reason: ConfigurationChange
+2013-10-02 23:09:11,370 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2013-10-02 23:09:11,375 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 3ms)
+2013-10-02 23:09:11,376 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-02 23:09:11,452 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 20 (took 76ms)
+2013-10-02 23:09:11,453 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-02 23:09:11,456 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-10-02 23:09:11,456 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-02 23:09:11,458 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-10-02 23:09:11,458 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-02 23:09:11,460 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2013-10-02 23:09:11,460 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-02 23:09:11,463 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-02 23:09:11,463 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-02 23:09:11,465 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-02 23:09:11,511 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 27] Initializing Examine and binding to business logic events
+2013-10-02 23:09:11,929 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 27] Adding examine event handlers for index providers: 3
+2013-10-02 23:09:11,929 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-02 23:09:11,934 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-02 23:09:11,992 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of umbraco.interfaces.ITree
+2013-10-02 23:09:12,005 [23] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 12ms)
