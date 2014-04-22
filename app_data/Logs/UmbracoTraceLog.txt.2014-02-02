@@ -1,0 +1,728 @@
+2014-02-02 00:02:47,157 [6] INFO  umbraco.cms.businesslogic.web.Document - [Thread 17] New document 1130
+2014-02-02 00:02:49,727 [6] INFO  umbraco.cms.businesslogic.web.Document - [Thread 25] New document 1131
+2014-02-02 00:02:57,644 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'Roll-a-Ball (1)' with Id '1131' has been unpublished.
+2014-02-02 00:02:58,358 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-02 00:02:58,378 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 19ms)
+2014-02-02 00:03:50,111 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Roll-a-Ball' with Id '1130' has been published.
+2014-02-02 00:03:54,719 [6] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-02 00:03:54,727 [6] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 8ms)
+2014-02-02 00:06:25,327 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'Roll-a-Ball' with Id '1130' has been unpublished.
+2014-02-02 00:10:33,252 [6] INFO  umbraco.BusinessLogic.Log - [Thread 35] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 1129 | Comment: Start Before Publish Event for Blog Post 1129
+2014-02-02 00:10:33,809 [6] INFO  umbraco.content - [Thread 20] Loading content from database...
+2014-02-02 00:10:33,921 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'First Try with Unity' with Id '1129' has been published.
+2014-02-02 00:11:38,764 [6] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 11]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2014-02-02 00:11:38,764 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 11] An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.) ---> System.ComponentModel.Win32Exception (0x80004005): The specified network name is no longer available
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2,T3](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeRepository.<PerformGetByQuery>d__f.MoveNext()
+   at umbraco.loadNodeTypes.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.LoadTree(TreeRequestParams treeParams)
+   at umbraco.presentation.webservices.TreeDataService.GetXmlTree()
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:9df27154-4416-4383-8e4a-71abf5759adf
+2014-02-02 00:11:39,853 [6] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 7] Error executing query Select uniqueID from umbracoNode where nodeObjectType = @type And parentId = -1 order by sortOrder
+System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:7fcb062c-eba8-458d-8537-37f7fde195b9
+2014-02-02 00:11:39,878 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteReader ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   at umbraco.cms.businesslogic.CMSNode.TopMostNodeIds(Guid ObjectType)
+   at umbraco.cms.businesslogic.template.Template.GetAllAsList()
+   at umbraco.loadTemplates.RenderTemplates(XmlTree& tree)
+   at umbraco.loadTemplates.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.LoadTree(TreeRequestParams treeParams)
+   at umbraco.presentation.webservices.TreeDataService.GetXmlTree()
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:12:09,650 [6] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 31] Error executing query UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2014-02-02 00:16:56,678 [6] INFO  umbraco.cms.businesslogic.web.Document - [Thread 15] New document 1135
+2014-02-02 00:17:45,434 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'BallPhysicsThingyWeb.html' with Id '1135' has been unpublished.
+2014-02-02 00:20:39,337 [6] INFO  umbraco.cms.businesslogic.web.Document - [Thread 22] New document 1136
+2014-02-02 00:20:43,504 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Roll-a-Ball' with Id '1136' has been published.
+2014-02-02 00:20:48,265 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 12] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:21:52,611 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 39] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:21:54,889 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:21:58,281 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 28] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:22:16,633 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Roll-a-Ball' with Id '1136' has been published.
+2014-02-02 00:22:21,313 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 39] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:22:23,746 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 28] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:22:27,739 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Content controls have to be top-level controls in a content page or a nested master page that references a master page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 00:24:17,964 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Roll-a-Ball' with Id '1136' has been published.
+2014-02-02 00:36:57,296 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Roll-a-Ball' with Id '1136' has been published.
+2014-02-02 00:37:55,731 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Roll-a-Ball' with Id '1136' has been published.
+2014-02-02 00:42:37,746 [6] INFO  umbraco.BusinessLogic.Log - [Thread 64] Log scrubbed.  Removed all items older than 2013-12-04 00:42:37
+2014-02-02 00:42:37,749 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 64] Application shutdown. Reason: ConfigurationChange
+2014-02-02 00:43:35,550 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-02 00:43:35,557 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2014-02-02 00:43:35,560 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-02 00:43:35,648 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 20 (took 86ms)
+2014-02-02 00:43:35,658 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-02 00:43:35,661 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-02-02 00:43:35,662 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-02 00:43:35,664 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-02-02 00:43:35,664 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-02 00:43:35,667 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-02-02 00:43:35,669 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-02 00:43:35,672 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-02-02 00:43:35,672 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-02 00:43:35,675 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2014-02-02 00:43:35,753 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-02 00:43:36,230 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-02 00:43:36,244 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-02 00:43:36,251 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2014-02-02 00:43:36,304 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-02 00:43:36,338 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 33ms)
+2014-02-02 00:43:37,421 [7] INFO  umbraco.BasePages.BasePage - [Thread 11] User Angel Caban (Id: 0) logged in
+2014-02-02 00:43:37,422 [7] INFO  umbraco.BasePages.BasePage - [Thread 14] User Angel Caban (Id: 0) logged in
+2014-02-02 00:44:33,302 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-02 00:44:33,311 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 8ms)
+2014-02-02 00:44:33,879 [7] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2014-02-02 00:54:48,449 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Determining hash of code files on disk
+2014-02-02 00:54:48,463 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Hash determined (took 8ms)
+2014-02-02 00:54:48,479 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-02 00:54:48,687 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 20 (took 206ms)
+2014-02-02 00:54:48,711 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-02 00:54:48,726 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 15ms)
+2014-02-02 00:54:48,727 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-02 00:54:48,741 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 13ms)
+2014-02-02 00:54:48,741 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-02 00:54:48,752 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 11ms)
+2014-02-02 00:54:48,759 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-02 00:54:48,774 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2014-02-02 00:54:48,774 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-02 00:54:48,787 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 12ms)
+2014-02-02 00:54:48,965 [282] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 281] Initializing Examine and binding to business logic events
+2014-02-02 00:54:49,113 [282] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 281] Adding examine event handlers for index providers: 3
+2014-02-02 00:54:49,124 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-02 00:54:49,176 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 51ms)
+2014-02-02 00:54:49,240 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Starting resolution types of umbraco.interfaces.ITree
+2014-02-02 00:54:49,285 [282] INFO  Umbraco.Core.PluginManager - [Thread 281] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 44ms)
+2014-02-02 01:35:48,608 [282] INFO  umbraco.content - [Thread 253] Loading content from disk cache...
+2014-02-02 01:35:52,226 [282] INFO  Umbraco.Core.PluginManager - [Thread 253] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-02 01:35:52,244 [282] INFO  Umbraco.Core.PluginManager - [Thread 253] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 18ms)
+2014-02-02 01:35:58,082 [282] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 252] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 01:35:58,949 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:35:58,950 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 252] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:36:19,270 [282] INFO  Umbraco.Core.PluginManager - [Thread 242] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-02 01:36:19,373 [282] INFO  Umbraco.Core.PluginManager - [Thread 242] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 101ms)
+2014-02-02 01:36:27,499 [282] INFO  umbraco.BasePages.BasePage - [Thread 253] User Angel Caban (Id: 0) logged in
+2014-02-02 01:36:27,650 [282] INFO  Umbraco.Core.PluginManager - [Thread 251] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-02 01:36:27,665 [282] INFO  Umbraco.Core.PluginManager - [Thread 251] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 15ms)
+2014-02-02 01:36:27,764 [282] INFO  Umbraco.Core.PluginManager - [Thread 251] Starting resolution types of umbraco.interfaces.ITree
+2014-02-02 01:36:27,803 [282] INFO  Umbraco.Core.PluginManager - [Thread 251] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 39ms)
+2014-02-02 01:36:38,549 [282] INFO  Umbraco.Core.PluginManager - [Thread 251] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-02 01:36:38,586 [282] INFO  Umbraco.Core.PluginManager - [Thread 251] Completed resolution of types of umbraco.interfaces.IDataType, found 41 (took 36ms)
+2014-02-02 01:37:07,583 [282] INFO  umbraco.BusinessLogic.Log - [Thread 236] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 1129 | Comment: Start Before Publish Event for Blog Post 1129
+2014-02-02 01:37:07,666 [282] INFO  Umbraco.Core.PluginManager - [Thread 242] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-02 01:37:07,689 [282] INFO  Umbraco.Core.PluginManager - [Thread 242] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 22ms)
+2014-02-02 01:37:07,705 [282] INFO  umbraco.content - [Thread 252] Loading content from database...
+2014-02-02 01:37:07,725 [282] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 242] Content 'First Try with Unity' with Id '1129' has been published.
+2014-02-02 01:37:55,810 [282] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 251] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,838 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:37:55,839 [282] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 251] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 01:43:09,906 [282] INFO  umbraco.BusinessLogic.Log - [Thread 250] Log scrubbed.  Removed all items older than 2013-12-04 01:43:09
+2014-02-02 01:43:09,927 [282] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 250] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-02-02 01:43:12,098 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Determining hash of code files on disk
+2014-02-02 01:43:12,109 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Hash determined (took 7ms)
+2014-02-02 01:43:12,124 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-02 01:43:12,307 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 181ms)
+2014-02-02 01:43:12,330 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-02 01:43:12,347 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2014-02-02 01:43:12,348 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-02 01:43:12,361 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2014-02-02 01:43:12,361 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-02 01:43:12,374 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 12ms)
+2014-02-02 01:43:12,375 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-02 01:43:12,390 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2014-02-02 01:43:12,390 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-02 01:43:12,404 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 14ms)
+2014-02-02 01:43:12,581 [256] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 261] Initializing Examine and binding to business logic events
+2014-02-02 01:43:12,693 [256] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 261] Adding examine event handlers for index providers: 3
+2014-02-02 01:43:12,705 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-02 01:43:12,724 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 18ms)
+2014-02-02 01:43:12,753 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Starting resolution types of umbraco.interfaces.ITree
+2014-02-02 01:43:12,791 [256] INFO  Umbraco.Core.PluginManager - [Thread 261] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 38ms)
+2014-02-02 01:43:15,023 [256] INFO  Umbraco.Core.PluginManager - [Thread 270] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-02 01:43:15,040 [256] INFO  Umbraco.Core.PluginManager - [Thread 270] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2014-02-02 01:43:15,191 [256] INFO  Umbraco.Core.PluginManager - [Thread 270] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-02 01:43:15,211 [256] INFO  Umbraco.Core.PluginManager - [Thread 270] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 21ms)
+2014-02-02 01:43:15,234 [256] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 270] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.Services.PackagingService.SavePrevaluesFromXml(List`1 dataTypes, IEnumerable`1 dataTypeElements)
+   at Umbraco.Core.Services.PackagingService.ImportDataTypeDefinitions(XElement element, Int32 userId)
+   at umbraco.cms.businesslogic.packager.Installer.InstallBusinessLogic(Int32 packageId, String tempDir)
+   at umbraco.presentation.developer.packages.Installer.ProcessInstall(String currentStep)
+   at umbraco.presentation.developer.packages.Installer.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_packages_installer_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-02-02 01:43:37,334 [256] INFO  Umbraco.Core.PluginManager - [Thread 243] Starting resolution types of umbraco.interfaces.ITree
+2014-02-02 01:43:37,373 [256] INFO  Umbraco.Core.PluginManager - [Thread 243] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 38ms)
+2014-02-02 01:43:37,431 [256] INFO  Umbraco.Core.PluginManager - [Thread 243] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-02 01:43:37,457 [256] INFO  Umbraco.Core.PluginManager - [Thread 243] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 25ms)
+2014-02-02 01:44:04,990 [256] INFO  umbraco.content - [Thread 243] Loading content from disk cache...
+2014-02-02 01:44:51,235 [256] INFO  Umbraco.Core.PluginManager - [Thread 251] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-02 01:44:51,375 [256] INFO  Umbraco.Core.PluginManager - [Thread 251] Completed resolution of types of umbraco.interfaces.IDataType, found 43 (took 138ms)
+2014-02-02 02:00:40,341 [256] INFO  Umbraco.Core.PluginManager - [Thread 268] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-02 02:00:40,382 [256] INFO  Umbraco.Core.PluginManager - [Thread 268] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 40ms)
+2014-02-02 02:07:46,133 [256] INFO  umbraco.BusinessLogic.Log - [Thread 266] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 1129 | Comment: Start Before Publish Event for Blog Post 1129
+2014-02-02 02:07:46,199 [256] INFO  umbraco.content - [Thread 262] Loading content from database...
+2014-02-02 02:07:46,211 [256] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 255] Content 'First Try with Unity' with Id '1129' has been published.
+2014-02-02 02:07:54,792 [256] INFO  Umbraco.Core.PluginManager - [Thread 255] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-02 02:07:54,814 [256] INFO  Umbraco.Core.PluginManager - [Thread 255] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 21ms)
+2014-02-02 02:07:58,539 [256] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 268] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 02:07:59,572 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,572 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,572 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,572 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,572 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,572 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,573 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:07:59,573 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 268] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:14,638 [256] INFO  umbraco.BusinessLogic.Log - [Thread 266] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 1129 | Comment: Start Before Publish Event for Blog Post 1129
+2014-02-02 02:11:14,672 [256] INFO  umbraco.content - [Thread 262] Loading content from database...
+2014-02-02 02:11:14,676 [256] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 268] Content 'First Try with Unity' with Id '1129' has been published.
+2014-02-02 02:11:19,540 [256] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 254] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 02:11:19,570 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,570 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,570 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,570 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,570 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,570 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,571 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:11:19,571 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:20,095 [256] INFO  umbraco.BusinessLogic.Log - [Thread 254] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 1129 | Comment: Start Before Publish Event for Blog Post 1129
+2014-02-02 02:13:20,142 [256] INFO  umbraco.content - [Thread 268] Loading content from database...
+2014-02-02 02:13:20,148 [256] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 255] Content 'First Try with Unity' with Id '1129' has been published.
+2014-02-02 02:13:23,438 [256] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 266] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 02:13:23,464 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,464 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,464 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,464 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,464 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,464 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,465 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:13:23,465 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 266] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:16,679 [256] INFO  umbraco.BusinessLogic.Log - [Thread 255] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 1129 | Comment: Start Before Publish Event for Blog Post 1129
+2014-02-02 02:14:16,727 [256] INFO  umbraco.content - [Thread 266] Loading content from database...
+2014-02-02 02:14:16,754 [256] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 262] Content 'First Try with Unity' with Id '1129' has been published.
+2014-02-02 02:14:19,460 [256] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 254] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,484 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:14:19,485 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 254] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,858 [256] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 262] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 02:31:47,874 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 02:31:47,875 [256] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 262] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:26:01,815 [256] INFO  umbraco.BusinessLogic.Log - [Thread 269] Log scrubbed.  Removed all items older than 2013-12-04 23:26:01
+2014-02-02 23:26:01,817 [256] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 269] Application shutdown. Reason: HostingEnvironment
+2014-02-02 23:42:47,758 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-02 23:42:47,770 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 8ms)
+2014-02-02 23:42:47,786 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-02 23:42:47,983 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 196ms)
+2014-02-02 23:42:48,004 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-02 23:42:48,018 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 14ms)
+2014-02-02 23:42:48,019 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-02 23:42:48,032 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2014-02-02 23:42:48,032 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-02 23:42:48,046 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 13ms)
+2014-02-02 23:42:48,051 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-02 23:42:48,068 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 16ms)
+2014-02-02 23:42:48,068 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-02 23:42:48,082 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 13ms)
+2014-02-02 23:42:48,260 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-02 23:42:48,426 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-02 23:42:48,431 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-02 23:42:48,451 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 19ms)
+2014-02-02 23:42:48,497 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-02 23:42:48,540 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 42ms)
+2014-02-02 23:47:16,604 [5] INFO  umbraco.content - [Thread 12] Loading content from disk cache...
+2014-02-02 23:47:17,074 [5] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-02 23:47:17,091 [5] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 17ms)
+2014-02-02 23:47:17,190 [5] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 12] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,346 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:17,347 [5] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 12] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-02 23:47:18,185 [5] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-02 23:47:18,202 [5] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 16ms)

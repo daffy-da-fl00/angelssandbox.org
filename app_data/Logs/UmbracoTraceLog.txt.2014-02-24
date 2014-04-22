@@ -1,0 +1,16 @@
+2014-02-24 16:43:09,090 [6] INFO  umbraco.BusinessLogic.Log - [Thread 81] Log scrubbed.  Removed all items older than 2013-12-26 16:43:09
+2014-02-24 18:06:02,082 [6] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-24 18:06:02,082 [6] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 0ms)
+2014-02-24 18:55:05,403 [6] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 33] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-24 21:42:53,091 [6] INFO  umbraco.BusinessLogic.Log - [Thread 86] Log scrubbed.  Removed all items older than 2013-12-26 21:42:53
+2014-02-24 21:42:53,102 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 86] Application shutdown. Reason: HostingEnvironment

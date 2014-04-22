@@ -1,0 +1,104 @@
+2014-03-12 06:25:27,708 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 06:25:27,708 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-03-12 06:25:27,720 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 06:25:27,720 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-03-12 06:26:54,556 [6] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 06:26:54,556 [6] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-03-12 06:26:54,556 [6] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 06:26:54,556 [6] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-03-12 08:57:58,793 [6] INFO  Umbraco.Core.PluginManager - [Thread 74] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 08:57:58,793 [6] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-03-12 08:57:58,800 [6] INFO  Umbraco.Core.PluginManager - [Thread 74] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 08:57:58,800 [6] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-03-12 08:58:27,847 [6] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 08:58:27,847 [6] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-03-12 08:58:27,856 [6] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 08:58:27,856 [6] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-03-12 10:04:53,395 [6] INFO  umbraco.BusinessLogic.Log - [Thread 28] Log scrubbed.  Removed all items older than 2014-01-11 10:04:53
+2014-03-12 10:25:35,812 [6] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-03-12 10:25:35,812 [6] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 0ms)
+2014-03-12 15:00:37,531 [6] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 15:00:37,531 [6] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-03-12 15:00:37,544 [6] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 15:00:37,545 [6] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-03-12 15:04:36,610 [6] INFO  umbraco.BusinessLogic.Log - [Thread 70] Log scrubbed.  Removed all items older than 2014-01-11 15:04:36
+2014-03-12 15:04:36,620 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 70] Application shutdown. Reason: HostingEnvironment
+2014-03-12 15:05:27,514 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-12 15:05:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 43ms)
+2014-03-12 15:05:27,573 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-12 15:05:28,241 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 667ms)
+2014-03-12 15:05:28,269 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-12 15:05:28,285 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2014-03-12 15:05:28,285 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-12 15:05:28,300 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 14ms)
+2014-03-12 15:05:28,300 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-12 15:05:28,311 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 11ms)
+2014-03-12 15:05:28,315 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-12 15:05:28,330 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2014-03-12 15:05:28,330 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-12 15:05:28,344 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 13ms)
+2014-03-12 15:05:28,689 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-12 15:05:29,256 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-12 15:05:29,257 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-12 15:05:29,284 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 27ms)
+2014-03-12 15:05:29,329 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-12 15:05:29,374 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 44ms)
+2014-03-12 15:05:29,777 [10] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 15:05:29,794 [10] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 16ms)
+2014-03-12 15:05:29,803 [10] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 15:05:29,820 [10] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 16ms)
+2014-03-12 17:20:16,346 [10] ERROR umbraco.BusinessLogic.Application - [Thread 67] Can't instantiate SQLHelper with connectionstring ""
+System.InvalidOperationException: Failed to map the path '/'.
+   at System.Web.Configuration.ProcessHostConfigUtils.MapPathActual(String siteName, VirtualPath path)
+   at System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   at System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   at System.Web.Configuration.WebConfigurationHost.IsConfigRecordRequired(String configPath)
+   at System.Configuration.BaseConfigurationRecord.hlNeedsChildFor(String configName)
+   at System.Configuration.Internal.InternalConfigRoot.GetConfigRecord(String configPath)
+   at System.Configuration.Internal.InternalConfigRoot.GetUniqueConfigRecord(String configPath)
+   at System.Web.Configuration.HttpConfigurationSystem.GetUniqueConfigRecord(String configPath)
+   at System.Web.CachedPathData.Init(CachedPathData parentData)
+   at System.Web.CachedPathData.GetConfigPathData(String configPath)
+   at System.Web.CachedPathData.GetApplicationPathData()
+   at System.Web.Configuration.HttpConfigurationSystem.GetApplicationSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   at umbraco.BusinessLogic.Application.get_SqlHelper()
+2014-03-12 17:20:16,346 [10] ERROR umbraco.BusinessLogic.Application - [Thread 67] Can't instantiate SQLHelper with connectionstring ""
+System.Configuration.ConfigurationErrorsException: Exception of type 'System.Configuration.ConfigurationErrorsException' was thrown.
+   at System.Web.Configuration.ErrorRuntimeConfig.ErrorConfigRecord.System.Configuration.Internal.IInternalConfigRecord.GetSection(String configKey)
+   at System.Web.Configuration.HttpConfigurationSystem.GetApplicationSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   at umbraco.BusinessLogic.Application.get_SqlHelper()
+2014-03-12 17:20:16,378 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 67] Application shutdown. Reason: ConfigurationChange
+2014-03-12 20:38:53,551 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-03-12 20:38:53,560 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2014-03-12 20:38:53,576 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-03-12 20:38:53,782 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 206ms)
+2014-03-12 20:38:53,797 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-03-12 20:38:53,819 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 22ms)
+2014-03-12 20:38:53,819 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-03-12 20:38:53,834 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 14ms)
+2014-03-12 20:38:53,834 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-03-12 20:38:53,853 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 18ms)
+2014-03-12 20:38:53,857 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-03-12 20:38:53,877 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 20ms)
+2014-03-12 20:38:53,878 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-03-12 20:38:53,894 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2014-03-12 20:38:54,167 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-03-12 20:38:54,423 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-03-12 20:38:54,424 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-03-12 20:38:54,445 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 21ms)
+2014-03-12 20:38:54,480 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-03-12 20:38:54,524 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 45ms)
+2014-03-12 20:38:54,782 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 20:38:54,801 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 18ms)
+2014-03-12 20:38:54,813 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 20:38:54,834 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 20ms)
+2014-03-12 20:39:56,291 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-03-12 20:39:56,291 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-03-12 20:39:56,291 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-03-12 20:39:56,291 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)

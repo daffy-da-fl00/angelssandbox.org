@@ -1,0 +1,15 @@
+2014-02-06 06:42:12,692 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-06 06:42:12,749 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 57ms)
+2014-02-06 06:42:12,780 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-06 06:42:12,803 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 21ms)
+2014-02-06 14:53:21,119 [6] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-06 14:53:21,119 [6] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-02-06 14:53:21,122 [6] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-06 14:53:21,123 [6] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-02-06 17:33:24,638 [6] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-06 17:33:24,638 [6] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-02-06 17:33:24,639 [6] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-06 17:33:24,639 [6] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-02-06 21:25:08,761 [6] INFO  umbraco.BusinessLogic.Log - [Thread 77] Log scrubbed.  Removed all items older than 2013-12-08 21:25:08
+2014-02-06 22:32:27,027 [6] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-06 22:32:27,028 [6] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 0ms)

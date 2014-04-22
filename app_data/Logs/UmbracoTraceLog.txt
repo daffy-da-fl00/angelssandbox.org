@@ -1,0 +1,4 @@
+2014-04-22 01:20:14,723 [7] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-04-22 01:20:14,724 [7] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 0ms)
+2014-04-22 03:49:09,199 [7] INFO  umbraco.BusinessLogic.Log - [Thread 23] Log scrubbed.  Removed all items older than 2014-02-21 03:49:09
+2014-04-22 03:49:09,211 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 23] Application shutdown. Reason: HostingEnvironment

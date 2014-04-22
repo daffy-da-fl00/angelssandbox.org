@@ -1,0 +1,49 @@
+2014-03-28 18:35:56,655 [7] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 19] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-03-28 18:35:57,035 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,035 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,036 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,036 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,036 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,036 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,036 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 18:35:57,036 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-03-28 19:52:17,561 [7] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 13] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-03-28 22:11:46,997 [7] INFO  umbraco.BusinessLogic.Log - [Thread 29] Log scrubbed.  Removed all items older than 2014-01-27 22:11:46
+2014-03-28 22:50:26,811 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-03-28 22:50:26,812 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 0ms)

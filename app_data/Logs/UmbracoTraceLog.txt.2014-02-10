@@ -1,0 +1,111 @@
+2014-02-10 00:03:25,575 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-10 00:03:25,584 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 7ms)
+2014-02-10 00:03:25,601 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-10 00:03:25,776 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 174ms)
+2014-02-10 00:03:25,780 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-10 00:03:25,797 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2014-02-10 00:03:25,798 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-10 00:03:25,812 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 13ms)
+2014-02-10 00:03:25,812 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-10 00:03:25,825 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 13ms)
+2014-02-10 00:03:25,828 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-10 00:03:25,859 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 30ms)
+2014-02-10 00:03:25,860 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-10 00:03:25,876 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 16ms)
+2014-02-10 00:03:26,001 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-10 00:03:26,147 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-10 00:03:26,148 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-10 00:03:26,167 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 19ms)
+2014-02-10 00:03:26,196 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-10 00:03:26,238 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 41ms)
+2014-02-10 00:03:26,457 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2014-02-10 00:03:55,944 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-10 00:03:55,961 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2014-02-10 01:45:13,201 [6] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-10 01:45:13,220 [6] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 17ms)
+2014-02-10 01:45:13,243 [6] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-10 01:45:13,259 [6] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 15ms)
+2014-02-10 07:23:18,663 [6] INFO  Umbraco.Core.PluginManager - [Thread 47] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-10 07:23:18,692 [6] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.XsltExtensionAttribute, found 1 (took 28ms)
+2014-02-10 09:48:29,343 [6] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-10 09:48:29,343 [6] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-02-10 09:48:29,354 [6] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-10 09:48:29,355 [6] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-02-10 15:36:25,259 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-10 15:36:25,259 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-02-10 15:36:25,269 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-10 15:36:25,270 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-02-10 16:18:02,475 [6] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-10 16:18:02,475 [6] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 3 (took 0ms)
+2014-02-10 16:18:02,476 [6] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2014-02-10 16:18:02,476 [6] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 0ms)
+2014-02-10 19:27:32,456 [6] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 31] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 19:27:32,765 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 31] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,937 [6] WARN  umbraco.macro - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 8] Error parsing XSLT file. Exception: System.Xml.Xsl.XslTransformException: Cannot find a script or an extension object associated with namespace 'urn:BlogLibrary'.
+   at System.Xml.Xsl.Runtime.XmlQueryContext.InvokeXsltLateBoundFunction(String name, String namespaceUri, IList`1[] args)
+   at <xsl:template match="/">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at Execute(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, XmlWriter results, XmlResolver documentResolver)
+   at System.Xml.Xsl.XslCompiledTransform.Transform(IXPathNavigable input, XsltArgumentList arguments, TextWriter results)
+   at umbraco.macro.GetXsltTransformResult(XmlDocument macroXml, XslCompiledTransform xslt, Dictionary`2 parameters)
+   at umbraco.macro.LoadMacroXslt(macro macro, MacroModel model, Hashtable pageElements, Boolean throwError)</format><args>{}</args></log4net.Error>
+2014-02-10 20:26:30,974 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'Name'. Exception: System.ArgumentException: No key Name exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,974 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'Email'. Exception: System.ArgumentException: No key Email exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,974 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'Website'. Exception: System.ArgumentException: No key Website exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,975 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'Comment'. Exception: System.ArgumentException: No key Comment exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,975 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'Submit'. Exception: System.ArgumentException: No key Submit exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,975 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'CommentLoading'. Exception: System.ArgumentException: No key CommentLoading exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,975 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'CommentPosted'. Exception: System.ArgumentException: No key CommentPosted exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2014-02-10 20:26:30,976 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 8] Error returning dictionary item 'CommentFailend'. Exception: System.ArgumentException: No key CommentFailend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
