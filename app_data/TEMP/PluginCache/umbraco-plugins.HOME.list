@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <plugins>
   <baseType type="umbraco.interfaces.IApplicationStartupHandler" resolutionType="FindAllTypes">
-    <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umlaut.Umb.Blog.EventHandlers.AutoChannelCreator, Umlaut.Umb.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umlaut.Umb.Blog.EventHandlers.Autoping, Umlaut.Umb.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umlaut.Umb.Blog.BlogDateFolder, Umlaut.Umb.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="nForum.BusinessLogic.Events.NForumEvents, nForum.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.5021.24868, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.5021.24868, Culture=neutral, PublicKeyToken=null" />
+    <add type="UmbracoExamine.UmbracoEventManager, UmbracoExamine, Version=0.6.0.24869, Culture=neutral, PublicKeyToken=null" />
     <add type="Runway.Blog.BlogDateFolder, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="Runway.Blog.EventHandlers.AutoChannelCreator, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="Runway.Blog.EventHandlers.Autoping, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
@@ -18,9 +24,6 @@
     <add type="umbraco.presentation.nodeFactory.UmbracoSiteMapProviderAccessUpdate, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.EnsureSystemPathsApplicationStartupHandler, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.umbraco.Search.ExamineEvents, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.5021.24868, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.5021.24868, Culture=neutral, PublicKeyToken=null" />
-    <add type="UmbracoExamine.UmbracoEventManager, UmbracoExamine, Version=0.6.0.24869, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter" resolutionType="FindAllTypes" />
   <baseType type="Umbraco.Web.Mvc.SurfaceController" resolutionType="FindAllTypes" />
@@ -152,8 +155,11 @@
     <add type="Umbraco.Core.Persistence.Mappers.UserTypeMapper, Umbraco.Core, Version=1.0.5021.24867, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.IDataType" resolutionType="FindAllTypes">
-    <add type="Runway.Blog.DataTypes.UserPicker, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Runway.Blog.DataTypes.SkinBrowserDatatype, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umlaut.Umb.Blog.DataTypes.SkinBrowserDatatype, Umlaut.Umb.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umlaut.Umb.Blog.DataTypes.UserPicker, Umlaut.Umb.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="uTube.Core.DataTypes.YouTubeSingleVideo.YTSV_DataType, uTube.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="uTube.Core.DataTypes.YouTubeUploader.YTU_DataType, uTube.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="uTube.Core.DataTypes.YouTubeVideoPicker.YTVP_DataType, uTube.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.PickerRelations.PickerRelationsDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.checkboxlist.checkboxListDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.colorpicker.ColorPickerDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
@@ -190,9 +196,8 @@
     <add type="umbraco.editorControls.XPathCheckBoxList.XPathCheckBoxListDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.XPathDropDownList.XPathDropDownListDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.yesno.YesNoDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
-    <add type="uTube.Core.DataTypes.YouTubeSingleVideo.YTSV_DataType, uTube.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="uTube.Core.DataTypes.YouTubeUploader.YTU_DataType, uTube.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="uTube.Core.DataTypes.YouTubeVideoPicker.YTVP_DataType, uTube.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.DataTypes.UserPicker, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.DataTypes.SkinBrowserDatatype, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.XsltExtensionAttribute" resolutionType="FindAttributedTypes">
     <add type="UComment.Library.XsltLibrary, UComment, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null" />
